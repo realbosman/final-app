@@ -1,0 +1,68 @@
+.gradient-form-button {
+    display: inline-block;
+    padding: 10px 10px;
+    background: linear-gradient(to right, rgb(234,147,30), rgb(250,52,5));
+    border: none;
+margin-top: 21px;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+    height: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    /* border:  3px solid green; */
+    
+}
+form span{
+    width: auto;
+    /* display: flex; */
+   
+    /* flex-direction: row; */
+
+}
+form span input{
+   flex-basis:50% ;
+   height: 25px;
+}
+form input{
+    border: 1px solid;
+  border-image: linear-gradient(to right, rgb(234, 147, 30), white, rgb(250, 52, 5));
+  border-image-slice: 1;
+
+    color: white;
+    background-color: rgb(14,14,14,0);
+    height: 200px;
+    margin-top: 21px;
+    
+
+}
+.name{
+    height: 120px;
+    
+  border: 1px solid;
+  border-image: linear-gradient(to right, rgb(234, 147, 30), white, rgb(250, 52, 5));
+  border-image-slice: 1;
+
+
+}
+.formGetInTouch{
+    display: flex;
+    flex-direction: column;
+   /* border: 3px solid red; */
+    align-items: center;
+    width: auto;
+    height: 500px;
+    align-self: center;
+    justify-self: center;
+   
+}
+.followme{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+
